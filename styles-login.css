@@ -61,10 +61,6 @@ h2 {
   margin-right: 3rem;
 }
 
-.login {
-  text-decoration: none;
-}
-
 .inp {
   display: flex;
   flex-direction: row;
