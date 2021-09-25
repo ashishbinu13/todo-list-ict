@@ -35,13 +35,32 @@
     <script defer src="./list-script.js"></script>
   </head>
   <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav
+      class="navbar navbar-light"
+      style="background-color: rgb(137, 193, 231)"
+    >
       <button class="btn btn-outline-success todo">to-do list</button>
       <h2>Let's get stuff done!</h2>
       <button class="btn btn-outline-success logout">log out</button>
     </nav>
 
-    <div id="list"></div>
+    <div class="stat">
+      <table class="table table-bordered" style="width: 50%">
+        <thead>
+          <tr>
+            <th scope="col">Completed</th>
+            <th scope="col">Pending</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="status"></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container">
+      <div id="list"></div>
+    </div>
 
     <!-- modal -->
 
