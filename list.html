@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-do List</title>
 
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
@@ -27,10 +35,12 @@
     <script defer src="./list-script.js"></script>
   </head>
   <body>
-    <nav>
-      <button class="todo">to-do list</button>
-      <button class="logout">log out</button>
+    <nav class="navbar navbar-dark bg-dark">
+      <button class="btn btn-outline-success todo">to-do list</button>
+      <h2>Let's get stuff done!</h2>
+      <button class="btn btn-outline-success logout">log out</button>
     </nav>
+
     <div id="list"></div>
 
     <!-- modal -->
