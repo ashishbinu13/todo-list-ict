@@ -64,7 +64,7 @@ $(document).ready(() => {
   // logout button
 
   $(".logout").on("click", () => {
-    window.location.href = "./login.html";
+    window.location.href = "./index.html";
   });
 
   // -----
